@@ -15,9 +15,11 @@
       <span class="bold">Salida RCA:</span> conexión RCA para emparejar su tocadiscos con cualquier
       sistema de reproducción de audio externo
     </p>
-<div class="video">
-        <video src="../assets/video.mp4" width="400" height="300" controls ></video>
-</div>
+     <div class="video">
+         <video controls="controls" preload="auto" >
+             <source src="../assets/video.mp4" type="video/mp4" />
+         </video>
+     </div>
     
     
   </div>
