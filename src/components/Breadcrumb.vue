@@ -2,6 +2,7 @@
  <ul class="breadcrumb">
   <li><a href="#">Inicio</a></li>
   <li><a href="#">Electronica</a></li>
+  <li><a href="#">Música</a></li>
   <li>Tocadiscos</li>
 </ul>
 </template>

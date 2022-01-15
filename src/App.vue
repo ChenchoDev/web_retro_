@@ -12,7 +12,10 @@
     <Descrip />
     <Images />
     </div>
-    <Compra/>
+    <div class="compra">
+<Compra/>
+    </div>
+    
     <div class="footer"></div>
   </div>
 </template>
