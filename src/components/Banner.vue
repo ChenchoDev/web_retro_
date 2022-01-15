@@ -2,7 +2,7 @@
   <nav id="banner">
     <div class="content_banner">
       <a href="#"
-        ><img src="@/assets/logo.png" alt="logo.png" width="220" height="220"
+        ><img src="@/assets/logo.png" alt="logo.png" width="320" height="250"
       /></a>
       <div class="text">
         <h1>¡No te haces mayor,te haces Vintage!</h1>
@@ -54,10 +54,7 @@
     background-image: url("../assets/fondo_banner1.png");
   }
 }
-.text {
-  margin: 30px 0px 30px 0px;
-  padding: 3px;
-  
+.text { 
   color: rgb(245, 243, 243);
   font-size: 25px;
   text-shadow: rgb(3, 3, 3) 0.1em 0.1em 0.2em;

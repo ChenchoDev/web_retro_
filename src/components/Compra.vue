@@ -1,5 +1,27 @@
 <template>
   <div class="cont_compra">
+        <div class="content_pago">
+      <div class="pago">
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="text_pago">Compra segura</div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-shipping-fast"></i>
+          </div>
+          <div class="text_pago">Envio 24h</div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="far fa-handshake"></i>
+          </div>
+          <div class="text_pago">Devolucion gratis</div>
+        </div>
+      </div>
+    </div>
     <div class="cont_contador">
       <div class="comentario">
         <div class="text_comentario">
@@ -53,6 +75,7 @@
         <span class="icon">Agregar al carrito </span>
       </button>
     </div>
+
   </div>
 </template>
 
@@ -91,6 +114,40 @@ export default {
 </script>
 
 <style>
+.card {
+  max-width: 300px;
+  margin: 10px;
+  justify-content:center;
+  align-items:center;
+  border: 1px solid;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  font-weight:200px;
+  }
+  .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.pago {
+  display: flex;
+  flex-direction: row;
+  max-width: 50%;
+}
+.cont_compra{
+  display: flex;
+  flex-direction: row;
+  width:auto;
+  padding-bottom: 20px;
+}
+.content_pago{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 .comentario {
   display: flex;
   flex-direction: row;
@@ -104,7 +161,7 @@ export default {
 }
 .cantidad {
   border: none;
-  width: 10px;
+  width: 14px;
 }
 .contador {
   display: flex;
@@ -117,7 +174,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 50%;
+  width: 50%;
   justify-content: center;
   align-items: center;
 }

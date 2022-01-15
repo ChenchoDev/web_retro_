@@ -98,7 +98,7 @@ export default {};
 }
 .placeholder {
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
+  font-weight: 600;
 }
 .buscar {
   display: flex;

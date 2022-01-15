@@ -7,16 +7,16 @@
     </div>
 
     <div class="breadcrumb"><Breadcrumb /></div>
-<TituloArt/>
+    <TituloArt />
     <div class="content-main">
-    <Descrip />
-    <Images />
+      <Descrip />
+      <Images />
     </div>
     <div class="compra">
-<Compra/>
+      <Compra />
     </div>
-    
-    <div class="footer"></div>
+
+    <div class="footer"><Footer /></div>
   </div>
 </template>
 
@@ -29,6 +29,7 @@ import Images from "./components/Images.vue";
 import Descrip from "./components/Descrip.vue";
 import TituloArt from "./components/TituloArt.vue";
 import Compra from "./components/Compra.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -39,15 +40,16 @@ export default {
     Images,
     Descrip,
     TituloArt,
-    Compra
+    Compra,
+    Footer,
   },
 };
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 #app {
   padding: 0px;
   margin: 0px;
@@ -55,6 +57,7 @@ export default {
   font-family: "Shrikhand", cursive;
   text-align: center;
   background-color: rgb(252, 252, 252);
+  font-weight: 200;
 }
 .container {
   max-width: 1500px;
@@ -63,8 +66,6 @@ export default {
 .content-main {
   display: flex;
   flex-direction: row;
-  
-  
 }
 .descri {
   flex-grow: 50%;
@@ -74,5 +75,10 @@ export default {
   max-width: 50%;
   width: 400px;
   height: 300px;
+}
+.footer {
+  display: flex;
+  background-color: #761405;
+
 }
 </style>

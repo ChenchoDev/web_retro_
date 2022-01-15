@@ -1,5 +1,5 @@
 <template>
-  <h2 class="txt">Tocadiscos Estéreo de 3 velocidades con Altavoces incorporados</h2>
+  <h2 class="txto">Tocadiscos Estéreo de 3 velocidades con Altavoces incorporados</h2>
 </template>
 
 <script>
@@ -9,7 +9,8 @@ export default {
 </script>
 
 <style>
-.txt{
+.txto{
   font-weight: 200;
+  font-size:25px;
 }
 </style>

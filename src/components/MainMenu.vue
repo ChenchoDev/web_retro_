@@ -34,23 +34,23 @@ export default {};
   align-items: center;
 }
 .home:hover {
-  color: #eb2027;
+  color: #f0c024;
   font-size: 25px;
 }
 .muebles:hover {
-  color: #f87448;
+  color: #d25129;
   font-size: 25px;
 }
 .ropa:hover {
-  color: #ffbe14;
+  color: #c02122;
   font-size: 25px;
 }
 .decoracion:hover {
-  color: #029b96;
+  color: #d9903d;
   font-size: 25px;
 }
 .electronica:hover {
-  color: #086461;
+  color: #127694;
   font-size: 25px;
 }
 
