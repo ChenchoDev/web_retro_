@@ -50,6 +50,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
 #app {
   padding: 0px;
   margin: 0px;
@@ -63,9 +64,13 @@ export default {
   max-width: 1500px;
   margin: 0px auto;
 }
+.container img{
+  width: auto;
+}
 .content-main {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .descri {
   flex-grow: 50%;

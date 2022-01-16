@@ -2,7 +2,7 @@
   <div class="main">
     <h4>Acerca de este producto</h4>
     <p class="texto_justificado">
-      <span class="bold">Estilo único:</span> Estilo único: aspecto de madera, protección contra el polvo y un práctico
+      <span class="bold">Estilo único:</span> Aspecto de madera, protección contra el polvo y un práctico
       salpicadero delantero vintage con controles <br />
       Conversión de vinilo MP3: transfiera música de vinilo a MP3 para
       reproducirlos en su estéreo o escucharlos en computadoras y dispositivos

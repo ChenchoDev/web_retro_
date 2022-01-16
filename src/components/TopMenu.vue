@@ -42,6 +42,8 @@ export default {};
   align-items: center;
   justify-content: space-between;
   background-color: #761405;
+  width: 100%;
+  flex-wrap: wrap;
 }
 .top_menu_link a {
   margin-left: 15px;
@@ -109,5 +111,6 @@ export default {};
 .top_menu_link{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 </style>

@@ -4,7 +4,7 @@
       <ul>
         <li class="txt">CONTACTO</li>
         <hr class="line">
-        <li class="txt">Fulgencio Marín Talavera</li>
+        <li class="txt">&copy; Fulgencio Marín Talavera</li>
         <li class="txt"><a href="mailto:"> pedidos@weeteighty.com</a></li>
         <li class="txt">Murcia - España</li>
       </ul>
@@ -29,10 +29,10 @@
     </div>
     <div class="card-footer">
       <div class="credit_cards">
-        <div><i class="card fab fa-cc-visa"></i></div>
-        <div><i class="card fab fa-cc-mastercard"></i></div>
-        <div><i class="card fab fa-cc-paypal"></i></div>
-        <div><i class="card fab fa-cc-amazon-pay"></i></div>
+        <div><i class=" fab fa-cc-visa"></i></div>
+        <div><i class=" fab fa-cc-mastercard"></i></div>
+        <div><i class=" fab fa-cc-paypal"></i></div>
+        <div><i class=" fab fa-cc-amazon-pay"></i></div>
       </div>
       <div class="credit_cards">
         <div><a href="#"><i class="fab fa-facebook"></i></a></div>
@@ -60,7 +60,7 @@ export default {};
     
 }
 .credit_cards i{
-    font-size:20px;
+    font-size:25px;
 }
 .txt{
   font-weight: 200;
