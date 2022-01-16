@@ -197,6 +197,7 @@ export default {
 .icon {
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
+  font-size:25px;
 }
 .button span {
   cursor: pointer;

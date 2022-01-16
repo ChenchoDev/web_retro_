@@ -41,7 +41,7 @@ export default {};
 }
 .main p {
   font-weight: 100;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 25px;
   padding: 20px;
 }
