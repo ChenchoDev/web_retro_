@@ -16,7 +16,7 @@
       sistema de reproducción de audio externo
     </p>
 <div class="video">
-        <video src="../assets/video.mp4" width="400" height="300" controls ></video>
+        <video src="../assets/video.mp4"  controls ></video>
 </div>
     
     
@@ -29,6 +29,10 @@ export default {};
 
 <style>
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 50%;
   height: auto;
   font-family: "Merriweather", serif;
@@ -48,7 +52,8 @@ export default {};
     font-weight:bold;
 }
 .video{
-    height:350px;
+    max-width: 50%;
+    height: auto;
     
 }
 </style>

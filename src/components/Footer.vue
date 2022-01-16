@@ -92,7 +92,9 @@ export default {};
 .content_footer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   flex-grow: 1;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }

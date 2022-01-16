@@ -115,12 +115,12 @@ export default {
 
 <style>
 .card {
-  max-width: 25%;
+  max-width: auto;
   margin: 10px;
   justify-content:center;
   align-items:center;
   border: 1px solid;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   font-weight:200px;
@@ -131,7 +131,7 @@ export default {
 .pago {
   display: flex;
   flex-direction: row;
-  max-width: 50%;
+  max-width: 100%;
 }
 .cont_compra{
   display: flex;
