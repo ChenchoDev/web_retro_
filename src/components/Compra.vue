@@ -115,7 +115,7 @@ export default {
 
 <style>
 .card {
-  max-width: 300px;
+  max-width: 25%;
   margin: 10px;
   justify-content:center;
   align-items:center;

@@ -2,7 +2,7 @@
   <div class="content_footer">
     <div class="card-footer">
       <ul>
-        <li class="txt">CONTACTO</li>
+        <li class="txt1">CONTACTO</li>
         <hr class="line">
         <li class="txt">&copy; Fulgencio Marín Talavera</li>
         <li class="txt"><a href="mailto:"> pedidos@weeteighty.com</a></li>
@@ -11,7 +11,7 @@
     </div>
     <div class="card-footer">
         <ul>
-        <li class="txt">QUIENES SOMOS</li>
+        <li class="txt1">QUIENES SOMOS</li>
         <hr class="line">
         <li class="txt"><a href="#">Sobre nosotros</a></li>
         <li class="txt"><a href="#">Contáctanos</a></li>
@@ -20,7 +20,7 @@
     </div>
     <div class="card-footer">
           <ul>
-        <li class="txt">AYUDA</li>
+        <li class="txt1">AYUDA</li>
         <hr class="line">
         <li class="txt"><a href="#">F.A.Q</a></li>
         <li class="txt"><a href="#">Envíos y entregas</a></li>
@@ -49,12 +49,16 @@ export default {};
 </script>
 
 <style>
+.txt1{
+    font-weight: 200;
+  font-size: 12px;
+}
 
 .credit_cards{
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items:center;
     width: 100%;
     

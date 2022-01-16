@@ -31,7 +31,9 @@ ul.breadcrumb {
 ul.breadcrumb li {
   display: inline;
   font-size: 15px;
+  text-decoration: none;
 }
+
 
 
 ul.breadcrumb li+li:before {
@@ -41,7 +43,7 @@ ul.breadcrumb li+li:before {
 }
 
 
-ul.breadcrumb li a {
+ul.breadcrumb a {
   color: #761405;
   text-decoration: none;
 }
@@ -49,6 +51,6 @@ ul.breadcrumb li a {
 
 ul.breadcrumb li a:hover {
   color: #01447e;
-  text-decoration: underline;
+  text-decoration: none;
 }
 </style>

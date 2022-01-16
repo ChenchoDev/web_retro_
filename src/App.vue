@@ -61,7 +61,7 @@ export default {
   font-weight: 200;
 }
 .container {
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0px auto;
 }
 .container img{
