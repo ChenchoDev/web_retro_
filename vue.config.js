@@ -2,5 +2,5 @@
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ?
-        '/web_retro/' : '/'
+        '/web_retro_/' : '/'
 }
