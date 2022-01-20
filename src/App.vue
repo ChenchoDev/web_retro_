@@ -71,6 +71,7 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  
 }
 .descri {
   flex-grow: 50%;

@@ -6,7 +6,7 @@
           v-bind:src="fotos[0]"
           alt="Tocadiscos Estéreo de 3 velocidades con Altavoces" copyright="Fulgencio Marin Talavera"
         />
-        <figcaption class="figcaption"><i>Detalle del articulo</i></figcaption>
+        <figcaption class="figcaption"><i>Imagen del producto</i></figcaption>
       </figure>
     </div>
     <div class="diapo">

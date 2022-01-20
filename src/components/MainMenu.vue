@@ -62,7 +62,7 @@ export default {};
   height: 25px;
   background-color: #761405;
   width: 100%;
- 
+  
 
 }
 .main_menu a {

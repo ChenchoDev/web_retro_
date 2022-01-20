@@ -136,6 +136,7 @@ export default {
 .cont_compra{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width:auto;
   padding-bottom: 20px;
 }
